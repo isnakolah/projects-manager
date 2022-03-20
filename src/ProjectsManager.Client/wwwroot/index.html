@@ -8,13 +8,12 @@
     <base href="/" />
     <link href="css/tailwind.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
-    <link href="ProjectsManager.Client.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
 
-<body>
+<body class="bg-gray-100 m-4">
     <div id="app">Loading...</div>
 
     <div id="blazor-error-ui">
@@ -22,6 +21,7 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <!--suppress HtmlUnknownTarget -->
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
