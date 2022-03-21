@@ -1,4 +1,4 @@
-using ProjectsManager.Contracts.Models;
+using ProjectsManager.Shared.Models;
 
 namespace ProjectsManager.Api.Models;
 

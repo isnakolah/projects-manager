@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <NpmLastInstall>node_modules/.last-install</NpmLastInstall>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+    <RootNamespace>ProjectsManager.App</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ProjectsManager.Contracts\ProjectsManager.Contracts.csproj" />
+    <ProjectReference Include="..\ProjectsManager.Shared\ProjectsManager.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

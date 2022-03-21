@@ -1,4 +1,4 @@
-namespace ProjectsManager.Contracts.Models;
+namespace ProjectsManager.Shared.Models;
 
 public interface IProject
 {

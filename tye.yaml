@@ -1,11 +1,11 @@
 name: projects-manager
 services:
-- name: projects-api
-  project: ProjectsManager.Api/ProjectsManager.Api.csproj
+- name: web-api
+  project: src/ProjectsManager.Api/ProjectsManager.Api.csproj
   bindings:
     - port: 7000
     
-- name: blazor-wasm-app
-  project: src/ProjectsManager.Client/ProjectsManager.Client.csproj
+- name: blazor-app
+  project: src/ProjectsManager.App/ProjectsManager.App.csproj
   bindings:
     - port: 8000

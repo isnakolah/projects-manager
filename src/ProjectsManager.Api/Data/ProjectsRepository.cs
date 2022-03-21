@@ -1,5 +1,5 @@
 using ProjectsManager.Api.Models;
-using ProjectsManager.Contracts.Models;
+using ProjectsManager.Shared.Models;
 
 namespace ProjectsManager.Api.Data;
 
