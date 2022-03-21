@@ -5,18 +5,19 @@ namespace ProjectsManager.Client.Services;
 internal class HttpClientHandler
 {
     private readonly HttpClient _client;
+    private readonly ILogger<HttpClientHandler> _logger;
 
-    public HttpClientHandler(IHttpClientFactory clientFactory)
+    public HttpClientHandler(IHttpClientFactory httpClientFactory, ILogger<HttpClientHandler> logger)
     {
-        _client = clientFactory.CreateClient("WebApi");
+        (_client, _logger) = (httpClientFactory.CreateClient() ,logger);
     }
 
-    public async Task<T?> GetAsync<T>(string endpoint)
+    public async Task<T?> GetAllAsync<T>(string endpoint)
     {
-        var response = await _client.GetAsync(endpoint);
+        _logger.LogInformation("Clients base address is: {ClientBaseAddress}", _client.BaseAddress);
+        
+        var response = await _client.GetFromJsonAsync<T>(endpoint);
 
-        var data = await response.Content.ReadFromJsonAsync<T>();
-
-        return data;
+        return response;
     }
 }

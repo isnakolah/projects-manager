@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsManager.Contracts",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsManager.Api", "ProjectsManager.Api\ProjectsManager.Api.csproj", "{D16F0987-F960-4563-8974-10E70591E32C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{1DDB75C3-FD78-4F6C-97D9-9F9FF2181DF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tye", "tye", "{948B8B42-80A3-49A4-9D7E-4FBA2506DD3A}"
+	ProjectSection(SolutionItems) = preProject
+		tye.yaml = tye.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +37,8 @@ Global
 		{D16F0987-F960-4563-8974-10E70591E32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D16F0987-F960-4563-8974-10E70591E32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D16F0987-F960-4563-8974-10E70591E32C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{948B8B42-80A3-49A4-9D7E-4FBA2506DD3A} = {1DDB75C3-FD78-4F6C-97D9-9F9FF2181DF7}
 	EndGlobalSection
 EndGlobal

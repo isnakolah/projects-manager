@@ -16,13 +16,11 @@
 
 @code {
 
-    private IEnumerable<IProject> projects = Array.Empty<IProject>();
-
-    private record Project(Guid Id, string Name, DateTime StartDate, DateTime EndDate) : IProject;
+    private IEnumerable<IProject> projects = Enumerable.Empty<Project>();
 
     protected override async Task OnInitializedAsync()
     {
-        projects = await _client.GetAsync<Project[]>("https://localhost:7777/api/projects") ?? Array.Empty<IProject>();
+        projects = await _client.GetAllAsync<Project[]>("/api/projects") ?? Enumerable.Empty<Project>();
     }
 
 }
