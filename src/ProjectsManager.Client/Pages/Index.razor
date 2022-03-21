@@ -1,7 +1,28 @@
 ﻿@page "/"
+@inject HttpClientHandler _client
 
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
-<p>Welcome to your new app.</p>
+<li>
+    @foreach (var project in projects)
+    {
+        <ol>
+            <span>@project.Id.ToString()</span><span>@project.Name</span>
+        </ol>
+    }
+</li>
+
+@code {
+
+    private IEnumerable<IProject> projects = Array.Empty<IProject>();
+
+    private record Project(Guid Id, string Name, DateTime StartDate, DateTime EndDate) : IProject;
+
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await _client.GetAsync<Project[]>("https://localhost:7777/api/projects") ?? Array.Empty<IProject>();
+    }
+
+}
