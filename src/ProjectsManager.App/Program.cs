@@ -7,11 +7,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
-
-builder.Services.AddHttpClient<HttpClientHandler>("ProjectsApi", 
-    client => client.BaseAddress = builder.Configuration.GetServiceUri("projects-api"));
-
-builder.Services.AddSingleton<HttpClientHandler>();
+builder.Services.AddScoped<HttpClientHandler>();
 
 var app = builder.Build();
 

@@ -20,7 +20,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        projects = await _client.GetAllAsync<Project[]>("/api/projects") ?? Enumerable.Empty<Project>();
+        projects = await _client.GetAllAsync<Project[]>() ?? Enumerable.Empty<Project>();
     }
 
 }
