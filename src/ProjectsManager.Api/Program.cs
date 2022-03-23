@@ -6,8 +6,7 @@ builder.Services.AddScoped<ProjectsRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(
-    opt => opt.AddDefaultPolicy(policy => policy
-        .WithOrigins("http://localhost:8000").AllowAnyMethod().AllowAnyHeader()));
+    opt => opt.AddDefaultPolicy(policy => policy.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()));
 
 var app = builder.Build();
 
