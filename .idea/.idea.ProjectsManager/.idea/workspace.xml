@@ -10,54 +10,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="Update folder structure">
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Data/ProjectsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Models/Project.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/ProjectsManager.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Shared/Models/IProject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Shared/ProjectsManager.Shared.csproj" afterDir="false" />
+    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.tye/process_store" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tye/process_store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/Data/ProjectsRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/Models/Project.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/ProjectsManager.Api.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Api/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Contracts/Models/IProject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.Contracts/ProjectsManager.Contracts.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectsManager.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectsManager.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Models/Projects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Models/Projects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Counter.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/ProjectsManager.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Services/HttpClientHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Shared/SurveyPrompt.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/Styles/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Styles/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/icon-192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/icon-192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/icon-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/icon-512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Client/wwwroot/service-worker.published.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/service-worker.published.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tye.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tye.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +49,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fb8eecb78b95e72abd5c2994ed05898c6c679849286bbfd841111c8c0d8a/TyeConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca860fea1234fdab4474cfa1911d325a886a3e2e7692197955e531a9eb8e081/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b16b6fe55c65427f8d49d0e188038f1520068/24/0087f9bf/HeadOutlet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -193,7 +155,8 @@
       <updated>1647783080056</updated>
       <workItem from="1647783080057" duration="1821000" />
       <workItem from="1647785123786" duration="36497000" />
-      <workItem from="1647889407313" duration="4670000" />
+      <workItem from="1647889407313" duration="5041000" />
+      <workItem from="1647992745224" duration="4944000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Setup">
       <created>1647785468904</created>
@@ -265,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647889264182</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update folder structure">
+      <created>1647894453142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647894453142</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
