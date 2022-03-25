@@ -18,6 +18,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tye", "tye", "{13484C2D-4B6
 		tye.yaml = tye.yaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vcs", "vcs", "{12D11102-7DE1-440B-95F4-0D5B21300427}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,5 +50,6 @@ Global
 		{6CAA8BD9-FA8A-4437-8FF0-CF52726E2C17} = {F539AB2A-DDDE-458D-B7C6-F7C10C4DF635}
 		{21EBA773-4102-4E87-A406-87E9F43EBEB5} = {F539AB2A-DDDE-458D-B7C6-F7C10C4DF635}
 		{13484C2D-4B67-4348-8B97-FE5379C2184A} = {3D1ED3C8-4662-435A-A152-54A85AD58925}
+		{12D11102-7DE1-440B-95F4-0D5B21300427} = {3D1ED3C8-4662-435A-A152-54A85AD58925}
 	EndGlobalSection
 EndGlobal

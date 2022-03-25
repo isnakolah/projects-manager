@@ -1,18 +1,24 @@
 ﻿@page "/"
+
 @inject HttpClientHandler _client
+@inject NavigationManager _navigationManager
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-<li>
-    @foreach (var project in projects)
-    {
-        <ol>
-            <span>@project.Id.ToString()</span><span>@project.Name</span>
-        </ol>
-    }
-</li>
+@foreach (var (id,name, startDate, endDate) in projects)
+{
+    <div onclick="@(() => HandleNavigateToProject(id))" class="my-4 cursor-pointer" >
+        <p class="text-blue-400 block">@name</p>
+        <p>
+            <span class="text-orange-700">Start date: </span>
+            <span class="text-slate-700">@startDate.ToShortDateString()</span>
+        </p>
+        <p>
+            <span class="text-orange-700">End date: </span>
+            <span class="text-slate-700">@endDate.ToShortDateString()</span>
+        </p>
+    </div>
+}
 
 @code {
 
@@ -21,6 +27,11 @@
     protected override async Task OnInitializedAsync()
     {
         projects = await _client.GetAllAsync<Project[]>() ?? Enumerable.Empty<Project>();
+    }
+
+    private void HandleNavigateToProject(Guid id)
+    {
+        _navigationManager.NavigateTo($"projects/{id.ToString()}");
     }
 
 }
