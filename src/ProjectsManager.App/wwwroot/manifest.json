@@ -1,6 +1,6 @@
 {
   "name": "ZeManager",
-  "short_name": "Project Manager",
+  "short_name": "ZeManager",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
