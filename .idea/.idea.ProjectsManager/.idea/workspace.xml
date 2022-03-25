@@ -11,15 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.tye/process_store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/aws-lambda-tools-defaults.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/serverless.template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/Data/ProjectsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Data/ProjectsRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tye.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tye.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/ProjectsManager.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/ProjectsManager.Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JSON File" />
         <option value="JavaScript File" />
+        <option value="JSON File" />
       </list>
     </option>
   </component>
@@ -49,7 +46,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5c4bb91d02d54323b1623258f32d24a23e80/11/37bf1304/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fb8eecb78b95e72abd5c2994ed05898c6c679849286bbfd841111c8c0d8a/TyeConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98ccabd5544f4ac2a3161f1e42ffd3b311480/80/0b352830/Utilities.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca860fea1234fdab4474cfa1911d325a886a3e2e7692197955e531a9eb8e081/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b16b6fe55c65427f8d49d0e188038f1520068/24/0087f9bf/HeadOutlet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -83,7 +82,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.ProjectsManager.Client">
+  <component name="RunManager" selected="AWS Lambda.[Remote] dotnet6">
     <configuration name="ProjectsManager.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProjectsManager.Api/ProjectsManager.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -144,6 +143,19 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="[Remote] dotnet6" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="dotnet6" />
+      <option name="input" value="{&#10;  &quot;body&quot;: &quot;{\&quot;test\&quot;:\&quot;body\&quot;}&quot;,&#10;  &quot;resource&quot;: &quot;/{proxy+}&quot;,&#10;  &quot;path&quot;: &quot;/path/to/resource&quot;,&#10;  &quot;httpMethod&quot;: &quot;POST&quot;,&#10;  &quot;queryStringParameters&quot;: {&#10;    &quot;foo&quot;: &quot;bar&quot;&#10;  },&#10;  &quot;pathParameters&quot;: {&#10;    &quot;proxy&quot;: &quot;path/to/resource&quot;&#10;  },&#10;  &quot;stageVariables&quot;: {&#10;    &quot;baz&quot;: &quot;qux&quot;&#10;  },&#10;  &quot;headers&quot;: {&#10;    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&#10;    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, sdch&quot;,&#10;    &quot;Accept-Language&quot;: &quot;en-US,en;q=0.8&quot;,&#10;    &quot;Cache-Control&quot;: &quot;max-age=0&quot;,&#10;    &quot;CloudFront-Forwarded-Proto&quot;: &quot;https&quot;,&#10;    &quot;CloudFront-Is-Desktop-Viewer&quot;: &quot;true&quot;,&#10;    &quot;CloudFront-Is-Mobile-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-SmartTV-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-Tablet-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Viewer-Country&quot;: &quot;US&quot;,&#10;    &quot;Host&quot;: &quot;1234567890.execute-api.{dns_suffix}&quot;,&#10;    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,&#10;    &quot;User-Agent&quot;: &quot;Custom User Agent String&quot;,&#10;    &quot;Via&quot;: &quot;1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)&quot;,&#10;    &quot;X-Amz-Cf-Id&quot;: &quot;cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==&quot;,&#10;    &quot;X-Forwarded-For&quot;: &quot;127.0.0.1, 127.0.0.2&quot;,&#10;    &quot;X-Forwarded-Port&quot;: &quot;443&quot;,&#10;    &quot;X-Forwarded-Proto&quot;: &quot;https&quot;&#10;  },&#10;  &quot;requestContext&quot;: {&#10;    &quot;accountId&quot;: &quot;123456789012&quot;,&#10;    &quot;resourceId&quot;: &quot;123456&quot;,&#10;    &quot;stage&quot;: &quot;prod&quot;,&#10;    &quot;requestId&quot;: &quot;c6af9ac6-7b61-11e6-9a41-93e8deadbeef&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;accountId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;caller&quot;: null,&#10;      &quot;apiKey&quot;: null,&#10;      &quot;sourceIp&quot;: &quot;127.0.0.1&quot;,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;userArn&quot;: null,&#10;      &quot;userAgent&quot;: &quot;Custom User Agent String&quot;,&#10;      &quot;user&quot;: null&#10;    },&#10;    &quot;resourcePath&quot;: &quot;/{proxy+}&quot;,&#10;    &quot;httpMethod&quot;: &quot;POST&quot;,&#10;    &quot;apiId&quot;: &quot;1234567890&quot;&#10;  }&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="AWS Lambda.[Remote] dotnet6" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -156,7 +168,9 @@
       <workItem from="1647783080057" duration="1821000" />
       <workItem from="1647785123786" duration="36497000" />
       <workItem from="1647889407313" duration="5041000" />
-      <workItem from="1647992745224" duration="4944000" />
+      <workItem from="1647992745224" duration="6617000" />
+      <workItem from="1648042849545" duration="5624000" />
+      <workItem from="1648170437417" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Setup">
       <created>1647785468904</created>
@@ -235,7 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647894453142</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Setup tye ports">
+      <created>1647998597533</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647998597533</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Change the cors policy to accept all">
+      <created>1647998632688</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647998632688</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Resolve the http client url">
+      <created>1647998702384</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647998702384</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +297,9 @@
     <MESSAGE value="Call Api from client app" />
     <MESSAGE value="Configure Tye" />
     <MESSAGE value="Update folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update folder structure" />
+    <MESSAGE value="Setup tye ports" />
+    <MESSAGE value="Change the cors policy to accept all" />
+    <MESSAGE value="Resolve the http client url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve the http client url" />
   </component>
 </project>

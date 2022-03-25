@@ -29,7 +29,7 @@ internal class ProjectsRepository
     public async Task<IProject?> GetSingle(Guid Id)
     {
         _logger.LogInformation("Retrieving single project, project id: {Id}", Id.ToString());
-        
+
         return await Task.FromResult(projects.FirstOrDefault(x => x.Id == Id));
     }
 }
