@@ -7,3 +7,6 @@ services:
       port: 6001
 - name: frontend-app
   project: src/ProjectsManager.App/ProjectsManager.App.csproj
+  bindings:
+    - protocol: https
+      port: 7001

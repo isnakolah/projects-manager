@@ -10,13 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/aws-lambda-tools-defaults.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/serverless.template" afterDir="false" />
+    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="Make the API app serverless">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/Data/ProjectsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Data/ProjectsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.Api/ProjectsManager.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.Api/ProjectsManager.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tye.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tye.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5c4bb91d02d54323b1623258f32d24a23e80/11/37bf1304/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fb8eecb78b95e72abd5c2994ed05898c6c679849286bbfd841111c8c0d8a/TyeConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.Api/Data/ProjectsRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98ccabd5544f4ac2a3161f1e42ffd3b311480/80/0b352830/Utilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca860fea1234fdab4474cfa1911d325a886a3e2e7692197955e531a9eb8e081/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b16b6fe55c65427f8d49d0e188038f1520068/24/0087f9bf/HeadOutlet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -170,7 +169,7 @@
       <workItem from="1647889407313" duration="5041000" />
       <workItem from="1647992745224" duration="6617000" />
       <workItem from="1648042849545" duration="5624000" />
-      <workItem from="1648170437417" duration="3896000" />
+      <workItem from="1648170437417" duration="5446000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Setup">
       <created>1647785468904</created>
@@ -270,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647998702384</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Make the API app serverless">
+      <created>1648174911819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648174911819</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Make the API app serverless">
+      <created>1648174919540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648174919540</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +313,7 @@
     <MESSAGE value="Setup tye ports" />
     <MESSAGE value="Change the cors policy to accept all" />
     <MESSAGE value="Resolve the http client url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolve the http client url" />
+    <MESSAGE value="Make the API app serverless" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make the API app serverless" />
   </component>
 </project>
