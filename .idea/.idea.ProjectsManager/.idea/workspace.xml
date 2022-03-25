@@ -10,8 +10,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="Add live url for the app">
+    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.tye/process_store" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/icon-192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/icon-192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/icon-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/icon-512.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +170,8 @@
       <workItem from="1647992745224" duration="6617000" />
       <workItem from="1648042849545" duration="5624000" />
       <workItem from="1648170437417" duration="7983000" />
-      <workItem from="1648218165472" duration="1708000" />
+      <workItem from="1648218165472" duration="3312000" />
+      <workItem from="1648232837429" duration="3996000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Setup">
       <created>1647785468904</created>
@@ -287,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648177106651</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Change app short name in the manifest to ZeManager">
+      <created>1648222221991</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648222221991</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +331,7 @@
     <MESSAGE value="Resolve the http client url" />
     <MESSAGE value="Make the API app serverless" />
     <MESSAGE value="Add live url for the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add live url for the app" />
+    <MESSAGE value="Change app short name in the manifest to ZeManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change app short name in the manifest to ZeManager" />
   </component>
 </project>
