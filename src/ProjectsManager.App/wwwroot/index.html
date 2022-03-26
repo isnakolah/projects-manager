@@ -67,18 +67,28 @@
         transform: translate(24px, 0);
       }
     }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .bg-gray-200 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+    }
   </style>
 </head>
 
 <body class="bg-gray-200">
   <div id="app">
-    <div class="flex justify-center items-center h-screen">
+    <div class="center">
       <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
     </div>
   </div>
 
   <div id="blazor-error-ui">
-    An unhandled error has occurred.
+    An error has occurred.
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
   </div>

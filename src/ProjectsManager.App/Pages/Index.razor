@@ -1,6 +1,6 @@
 ﻿@page "/"
 
-@inject HttpClientHandler _client
+@inject ProjectsRepository _projectsRepository;
 @inject NavigationManager _navigationManager
 
 <PageTitle>Home</PageTitle>
@@ -26,7 +26,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        projects = await _client.GetAllAsync<Project[]>() ?? Enumerable.Empty<Project>();
+        projects = await _projectsRepository.GetAllAsync();
     }
 
     private void HandleNavigateToProject(Guid id)

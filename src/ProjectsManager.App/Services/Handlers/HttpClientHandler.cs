@@ -1,6 +1,6 @@
 using System.Net.Http.Json;
 
-namespace ProjectsManager.App.Services;
+namespace ProjectsManager.App.Services.Handlers;
 
 internal class HttpClientHandler
 {
@@ -15,7 +15,7 @@ internal class HttpClientHandler
         _client.BaseAddress = new Uri($"{production}/api/projects");
     }
 
-    public async Task<T?> GetAllAsync<T>(string endpoint = "")
+    public async Task<T?> GetAsync<T>(string endpoint = "")
     {
         var response = await _client.GetFromJsonAsync<T>(endpoint);
 
