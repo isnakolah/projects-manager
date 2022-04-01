@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseCors();
 
-app.MapGet("/api/projects", async (ProjectsRepository repo) => await repo.GetAll());
-app.MapGet("/api/projects/{id:guid}", async (ProjectsRepository repo, Guid id) => await repo.GetSingle(id));
+app.MapGet("/api/projects", async (ProjectsRepository repo) => await repo.GetAllAsync());
+app.MapGet("/api/projects/{id:guid}", async (ProjectsRepository repo, Guid id) => await repo.GetSingleAsync(id));
 
 app.Run();
