@@ -34,6 +34,10 @@
     <Reference Include="Microsoft.Extensions.Http" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\fonts" />
+  </ItemGroup>
+
   <Target Name="CheckForNpm" BeforeTargets="NpmInstall">
     <Exec Command="npm -v" ContinueOnError="true">
       <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />

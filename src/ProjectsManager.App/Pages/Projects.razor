@@ -1,0 +1,28 @@
+@page "/projects/{id:guid}"
+@using System.Globalization
+
+@inject ProjectsRepository _projectsRepository;
+
+@if (Project is not null)
+{
+    <p>@Project.Name</p>
+    <p>@Project.EndDate.ToString(CultureInfo.InvariantCulture)</p>
+}
+else
+{
+    <p>There is no such project available</p>
+}
+
+@code {
+
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private Project? Project { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Project = await _projectsRepository.GetAsync(Id);
+    }
+
+}

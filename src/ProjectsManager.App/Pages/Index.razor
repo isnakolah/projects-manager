@@ -7,22 +7,22 @@
 
 @foreach (var (id,name, startDate, endDate) in projects)
 {
-    <div onclick="@(() => HandleNavigateToProject(id))" class="my-4 cursor-pointer" >
+    <div onclick="@(() => HandleNavigateToProject(id))" class="my-4 cursor-pointer text-sm" >
         <p class="text-blue-400 block">@name</p>
         <p>
             <span class="text-orange-700">Start date: </span>
-            <span class="text-slate-700">@startDate.ToShortDateString()</span>
+            <span class="text-slate-700">@startDate</span>
         </p>
         <p>
             <span class="text-orange-700">End date: </span>
-            <span class="text-slate-700">@endDate.ToShortDateString()</span>
+            <span class="text-slate-700">@endDate</span>
         </p>
     </div>
 }
 
 @code {
 
-    private IEnumerable<IProject> projects = Enumerable.Empty<Project>();
+    private IEnumerable<Project> projects = Enumerable.Empty<Project>();
 
     protected override async Task OnInitializedAsync()
     {
