@@ -2,7 +2,7 @@ using Blazored.SessionStorage;
 
 namespace ProjectsManager.App.Services;
 
-internal class CacheService<T> where T: class
+internal class CacheService<T> where T : class
 {
     private readonly ISessionStorageService _sessionStorage;
     private readonly string nameOfObject;
@@ -14,9 +14,7 @@ internal class CacheService<T> where T: class
 
     public async Task<T> GetAsync()
     {
-        var cachedResults = await _sessionStorage.GetItemAsync<T>(nameOfObject);
-
-        return cachedResults;
+        return await _sessionStorage.GetItemAsync<T>(nameOfObject);
     }
 
     public async Task SetAsync(T item)
@@ -29,11 +27,14 @@ internal class CacheService<T> where T: class
         await _sessionStorage.RemoveItemAsync(nameOfObject);
     }
 
-    private static string GetNameOfObject()
+    private string GetNameOfObject()
     {
+        if (!string.IsNullOrWhiteSpace(nameOfObject))
+            return nameOfObject;
+
         var type = typeof(T);
 
-        if (type.IsGenericType && type.GenericTypeArguments is { } genericTypes)
+        if (type.IsGenericType && type.GenericTypeArguments is {Length: > 0} genericTypes)
             return $"{genericTypes.First().Name.ToLower()}s-list";
 
         return type.Name;
