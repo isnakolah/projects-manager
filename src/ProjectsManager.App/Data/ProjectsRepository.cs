@@ -27,7 +27,7 @@ internal class ProjectsRepository
         return projects;
     }
 
-    public async Task<Project?> GetAsync(Guid id)
+    public async Task<Project?> GetSingleAsync(Guid id)
     {
         if (await _cache.GetAsync() is { } cachedProjects)
             return cachedProjects.FirstOrDefault(x => x.Id == id);

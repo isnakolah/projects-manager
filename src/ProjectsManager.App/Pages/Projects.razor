@@ -22,7 +22,7 @@ else
 
     protected override async Task OnParametersSetAsync()
     {
-        Project = await _projectsRepository.GetAsync(Id);
+        Project = await _projectsRepository.GetSingleAsync(Id);
     }
 
 }

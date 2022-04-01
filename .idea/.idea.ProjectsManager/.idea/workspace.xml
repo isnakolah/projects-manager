@@ -10,18 +10,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="Create a loading icon when loading">
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Data/ProjectsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Services/CacheService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8379820e-58cc-4b51-b61e-1e7b1befd744" name="Changes" comment="Rename GetAsync to GetSingleAsync">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectsManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/ProjectsManager.App.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/Services/HttpClientHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/Services/Handlers/HttpClientHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsManager.App/wwwroot/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +41,28 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Shared/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5c4bb91d02d54323b1623258f32d24a23e80/11/37bf1304/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2fb8eecb78b95e72abd5c2994ed05898c6c679849286bbfd841111c8c0d8a/TyeConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/App.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Pages/Counter.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Services/Handlers/HttpClientHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.Api/Data/ProjectsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Pages/Counter.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b16b6fe55c65427f8d49d0e188038f1520068/24/0087f9bf/HeadOutlet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Services/CacheService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Data/ProjectsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Pages/Index.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Data/ProjectsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98ccabd5544f4ac2a3161f1e42ffd3b311480/80/0b352830/Utilities.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca860fea1234fdab4474cfa1911d325a886a3e2e7692197955e531a9eb8e081/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ad268f076f61da1feb7dbdbe148aeef3d57aa5ce2fc28ad52c88e85789b4c3/Enumerable.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b16b6fe55c65427f8d49d0e188038f1520068/24/0087f9bf/HeadOutlet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.Api/Data/ProjectsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Pages/Projects.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Shared/NavMenu.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/Data/ProjectsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/nakol/dev/learning/projects-manager/ProjectsManager/src/ProjectsManager.App/_Imports.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -179,7 +185,10 @@
       <workItem from="1648170437417" duration="7983000" />
       <workItem from="1648218165472" duration="3312000" />
       <workItem from="1648232837429" duration="13454000" />
-      <workItem from="1648322352484" duration="9693000" />
+      <workItem from="1648322352484" duration="11295000" />
+      <workItem from="1648379272773" duration="6245000" />
+      <workItem from="1648582598180" duration="708000" />
+      <workItem from="1648631255451" duration="11222000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Project Setup">
       <created>1647785468904</created>
@@ -335,7 +344,105 @@
       <option name="project" value="LOCAL" />
       <updated>1648249200252</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add caching layer before fetching">
+      <created>1648335389578</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648335389578</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Change endpoint for the serverless prod api endpoint">
+      <created>1648812435399</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812435400</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Change IProject to Project">
+      <created>1648812492141</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812492141</updated>
+    </task>
+    <task id="LOCAL-00026" summary="If service already exists, create a hot path for the nameofObject, avoid reflection">
+      <created>1648812585803</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812585803</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Change endpoint for the service">
+      <created>1648812605410</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812605410</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Style the nav menu to appear at the top">
+      <created>1648812673565</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812673565</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add a role attribute to the section for the navigation">
+      <created>1648812702629</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812702629</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Delete SurveyPrompt">
+      <created>1648812721799</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812721799</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add Poppins font">
+      <created>1648812756433</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812756433</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Change the window color to dark gray">
+      <created>1648812775412</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812775412</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Remove the focus on navigate attribute">
+      <created>1648812794559</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812794559</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add the Projects.razor page for viewing a single project">
+      <created>1648812833438</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812833438</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Remove logging information in the api app">
+      <created>1648812987400</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1648812987400</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Rename GetAsync to GetSingleAsync">
+      <created>1648813017859</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1648813017859</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,12 +462,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Initial Project Setup" />
-    <MESSAGE value="Setup tailwind styling" />
-    <MESSAGE value="Clean up and refactoring" />
-    <MESSAGE value="Setup the Api application" />
-    <MESSAGE value="Call Api from client app" />
-    <MESSAGE value="Configure Tye" />
     <MESSAGE value="Update folder structure" />
     <MESSAGE value="Setup tye ports" />
     <MESSAGE value="Change the cors policy to accept all" />
@@ -372,6 +473,20 @@
     <MESSAGE value="Remove tailwind.css" />
     <MESSAGE value="Add styling" />
     <MESSAGE value="Create a loading icon when loading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a loading icon when loading" />
+    <MESSAGE value="Add caching layer before fetching" />
+    <MESSAGE value="Change endpoint for the serverless prod api endpoint" />
+    <MESSAGE value="Change IProject to Project" />
+    <MESSAGE value="If service already exists, create a hot path for the nameofObject, avoid reflection" />
+    <MESSAGE value="Change endpoint for the service" />
+    <MESSAGE value="Style the nav menu to appear at the top" />
+    <MESSAGE value="Add a role attribute to the section for the navigation" />
+    <MESSAGE value="Delete SurveyPrompt" />
+    <MESSAGE value="Add Poppins font" />
+    <MESSAGE value="Change the window color to dark gray" />
+    <MESSAGE value="Remove the focus on navigate attribute" />
+    <MESSAGE value="Add the Projects.razor page for viewing a single project" />
+    <MESSAGE value="Remove logging information in the api app" />
+    <MESSAGE value="Rename GetAsync to GetSingleAsync" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename GetAsync to GetSingleAsync" />
   </component>
 </project>
