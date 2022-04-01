@@ -1,13 +1,15 @@
-﻿<nav>
-    @foreach (var (name, link) in NavLinks)
-    {
-        <NavLink Match="NavLinkMatch.All" ActiveClass="text-blue-400 font-weight-400" href="@link" class="m-2">@name</NavLink>
-    }
-</nav>
+﻿<div class="bg-gray-300">
+    <nav class="mx-auto py-3 px-12 xl:w-2/3">
+        @foreach (var (title, link) in NavLinks)
+        {
+            <NavLink Match="NavLinkMatch.All" ActiveClass="text-blue-400 font-weight-400" href="@link" class="m-2 text-sm">@title</NavLink>
+        }
+    </nav>
+</div>
 
 @code {
 
-    private readonly IEnumerable<(string Name, string Link)> NavLinks = new (string Name, string Link)[]
+    private readonly IEnumerable<(string Title, string Link)> NavLinks = new (string Title, string Link)[]
     {
         new("Home", "/"),
         new("Counter", "/counter")
