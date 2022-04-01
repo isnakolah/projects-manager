@@ -20,15 +20,11 @@ internal class ProjectsRepository
 
     public async Task<IEnumerable<Project>> GetAllAsync()
     {
-        _logger.LogInformation("Get all projects called, project retrieved");
-
         return await Task.FromResult(projects);
     }
 
     public async Task<Project?> GetSingleAsync(Guid Id)
     {
-        _logger.LogInformation("Retrieving single project, project id: {Id}", Id.ToString());
-
         return await Task.FromResult(projects.FirstOrDefault(x => x.Id == Id));
     }
 }
